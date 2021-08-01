@@ -16,5 +16,5 @@ provider "aws" {
 module "gpu_vm" {
   source = "./modules/monitored-gpu"
 
-  ami = "ami-02fcd4d05b45168ef"
+  ami = "<your-ami-id>"
 }
