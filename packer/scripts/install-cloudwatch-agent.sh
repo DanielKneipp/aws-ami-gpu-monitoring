@@ -9,7 +9,6 @@ echo '
 {
     "agent": {
         "metrics_collection_interval": 60,
-        "region": "us-east-1",
         "logfile": "/opt/aws/amazon-cloudwatch-agent/logs/amazon-cloudwatch-agent.log"
     },
     "metrics": {
