@@ -144,7 +144,7 @@ def main():
 
                     logResults(i, util, mem_info_used, mem_info_free, pow_draw, temp)
                 except NVMLError as err:
-                    print(handleError(err))
+                    print(err)
 
             sleep(sleep_interval)
 
